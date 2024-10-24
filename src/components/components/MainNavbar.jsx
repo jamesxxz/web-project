@@ -1,4 +1,4 @@
-import { Flex, Text, Button, Icon, HStack, Separator } from "@chakra-ui/react";
+import { Flex, Text, Button, Icon, HStack } from "@chakra-ui/react";
 import { HiSquare3Stack3D } from "react-icons/hi2";
 
 export default function MainNavBar() {
