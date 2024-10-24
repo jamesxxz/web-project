@@ -4,7 +4,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 # Getting Started with Vite
 
-This project was bootstrapped with [Vite].
+This project was bootstrapped with Vite.
 
 ## Available Scripts
 
