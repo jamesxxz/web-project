@@ -37,17 +37,27 @@ export default function About() {
         <Box
           width="620px"
           height="340px"
-          transform="perspective(700px) rotateX(5deg) rotateY(-10deg)"
+          transform="perspective(800px) rotateX(5deg) rotateY(-10deg)"
           overflow="hidden"
           boxShadow="lg"
+          border="2px solid #383838"
+          borderRadius="5px"
         >
-          <video muted autoPlay loop width="100%" height="100%">
+          <video
+            muted
+            autoPlay
+            loop
+            style={{
+              borderRadius: "5px",
+              alignItems: "center",
+            }}
+          >
             <source src="/assets/instruction_video.mp4" type="video/mp4" />
           </video>
         </Box>
       </Flex>
 
-      <Stack alignItems={"center"} marginTop={"10%"}>
+      <Stack alignItems={"center"} marginTop={"6%"}>
         <Text>any text...</Text>
         <Flex gap={"30px"}>
           <Image
