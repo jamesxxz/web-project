@@ -13,7 +13,7 @@ export default function MainNavBar() {
           <Icon>
             <HiSquare3Stack3D></HiSquare3Stack3D>
           </Icon>
-          <Text>Orgnization</Text>
+          <Text fontWeight={"bold"}>Orgnization</Text>
         </HStack>
 
         <HStack gap={"20px"}>

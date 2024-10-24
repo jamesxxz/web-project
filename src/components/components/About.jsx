@@ -16,7 +16,12 @@ export default function About() {
       alignItems={"center"}
       marginTop={"5%"}
     >
-      <Flex alignItems={"center"} justifyContent={"center"} gap={"20px"}>
+      <Flex
+        alignItems={"center"}
+        justifyContent={"center"}
+        gap={"20px"}
+        wrap={"wrap"}
+      >
         <Flex
           flexDir={"column"}
           width={"500px"}
@@ -30,17 +35,26 @@ export default function About() {
           </Text>
           <Flex gap={"10px"}>
             <Button>placeholder</Button>
-            <Button>placeholders</Button>
+            <Button
+              variant={"ghost"}
+              border={"1px solid"}
+              _hover={{
+                backgroundColor: "#D3D3D3",
+                color: "black",
+              }}
+            >
+              placeholders
+            </Button>
           </Flex>
         </Flex>
 
         <Box
           width="620px"
           height="340px"
-          transform="perspective(800px) rotateX(5deg) rotateY(-10deg)"
+          transform="perspective(800px) rotateX(5deg) rotateY(-15deg)"
           overflow="hidden"
           boxShadow="lg"
-          border="2px solid #383838"
+          border="2px solid gray"
           borderRadius="5px"
         >
           <video
@@ -62,14 +76,14 @@ export default function About() {
         <Flex gap={"30px"}>
           <Image
             src="/assets/google.png"
-            h="50px"
-            w="150px"
+            h="30px"
+            w="130px"
             fit={"contain"}
           ></Image>
           <Image
             src="/assets/meta.png"
-            h="50px"
-            w="150px"
+            h="30px"
+            w="130px"
             fit={"contain"}
           ></Image>
         </Flex>

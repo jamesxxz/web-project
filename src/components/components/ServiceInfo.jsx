@@ -9,11 +9,8 @@ export default function ServiceInfo() {
       justifyContent={"center"}
       marginBottom={"100px"}
     >
-      <Heading size={"4xl"}>Real work, hallucination-proof reliability</Heading>
-      <Text color={"gray"}>
-        Autotab uses a mouse and keyboard like you—so anything you can do, it
-        can do.
-      </Text>
+      <Heading size={"4xl"}>Title</Heading>
+      <Text color={"gray"}>Descriptions...</Text>
 
       <Stack
         gap="4"
@@ -31,7 +28,7 @@ export default function ServiceInfo() {
             backgroundColor={"#242424"}
           >
             <Card.Body gap="2" alignItems={"center"}>
-              <Card.Title mb="2">Nue Camp</Card.Title>
+              <Card.Title mb="2">Placeholder</Card.Title>
               <Card.Description textAlign={"center"}>
                 This is the card body. Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit. This is the card body. Lorem ipsum dolor sit
